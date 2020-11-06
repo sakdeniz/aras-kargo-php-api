@@ -97,8 +97,8 @@ Class ArasKargoFormats
 			$returnArray['CampaignCode'] = $data['CampaignCode'];
 		}
 
-		if (isset($data['CustomerCode'])) {
-			$returnArray['CustomerCode'] = $data['CustomerCode'];
+		if (isset($data['IntegrationCode'])) {
+			$returnArray['IntegrationCode'] = $data['IntegrationCode'];
 		}
 
 		if (isset($data['Barcode'])) {
