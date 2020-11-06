@@ -35,7 +35,7 @@ Class ArasKargo extends ArasKargoRequest
 	public function getCargoInformationMOK($mok)
 	{
 
-		return $this->sendRequest('json', 39, $this->requestOptionsFormat(array('IntegrationCode' => $mok)));
+		return $this->sendRequest('json', 101, $this->requestOptionsFormat(array('IntegrationCode' => $mok)));
 	}
 	/**
 	 *
