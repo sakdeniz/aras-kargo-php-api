@@ -32,6 +32,11 @@ Class ArasKargo extends ArasKargoRequest
 		return $this->sendRequest('json', 1, $this->requestOptionsFormat(array('TrackingNumber' => $trackingNumber)));
 	}
 
+	public function getCargoInformationMOK($mok)
+	{
+
+		return $this->sendRequest('json', 36, $this->requestOptionsFormat(array('CampaignCode' => $mok)));
+	}
 	/**
 	 *
 	 * @description Belirli bir tarihe göre gönderilen kargoların listesini verir.
